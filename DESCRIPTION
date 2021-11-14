@@ -1,0 +1,23 @@
+Package: getbatty
+Title: Bat Puns Told By a Computer Chiropteran
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Tamika",
+           family = "Lunn",
+           role = c("aut", "cre"),
+           email = "tamika.jlunn@gmail.com",
+           comment = c(ORCID = "0000-0003-4439-2045"))
+Description: Prints a bat with text, either a generated joke or a specified text
+License: use_mit_license("Tamika Lunn")
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    magrittr
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
